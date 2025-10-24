@@ -1,0 +1,4 @@
+The program checks if a list of numbers can be sorted by doing just one simple move — either swapping two numbers or 
+reversing a section of the list. It compares the given list to its sorted version to find where the numbers are out of 
+order. If only two positions are wrong, swapping them will fix it. If more are wrong but reversing that part makes it 
+sorted, that also works. If neither works, it means the list can’t be fixed in one move.
