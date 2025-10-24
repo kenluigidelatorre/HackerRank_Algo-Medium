@@ -1,0 +1,4 @@
+The program creates a permutation of numbers from 1 to n such that the absolute difference between each number’s 
+position and its value is exactly k. If k is 0, the permutation is just 1 to n. If it’s not 0, numbers are arranged 
+by swapping in blocks of size k. If this pattern can’t be completed evenly, it means no valid permutation exists, 
+and the result is -1.
