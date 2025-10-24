@@ -1,0 +1,3 @@
+This program calculates the total surface area of 3D blocks stacked in a grid. Each cell value represents the height of blocks. 
+The top and bottom faces always add to the total area, and for the sides, it checks how much of each face is exposed by comparing 
+the height difference between neighboring cells. The sum of all exposed faces gives the total surface area.
