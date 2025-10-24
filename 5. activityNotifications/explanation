@@ -1,0 +1,4 @@
+The program helps track when a person’s spending becomes suspiciously high. It looks at each day’s spending and compares 
+it to the previous d days. It finds the median (middle value) of those past expenses to know what’s “normal.” If today’s 
+spending is at least twice that median, it counts as a notification. Instead of sorting the list every time, it uses 
+counting to make the process faster. In the end, it shows how many times spending was unusually high.
