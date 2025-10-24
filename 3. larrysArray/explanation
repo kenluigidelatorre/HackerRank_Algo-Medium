@@ -1,0 +1,3 @@
+This program checks if an array can be sorted using only a specific operation: rotating any three consecutive elements. 
+The key idea is that if the number of inversions (pairs where a larger number comes before a smaller one) is even, the 
+array can be sorted. If it’s odd, it can’t. So the program counts the inversions and decides if sorting is possible.
