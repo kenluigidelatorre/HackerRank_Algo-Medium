@@ -1,0 +1,4 @@
+This program finds the longest sequence of letters that appear in the same order in both strings. 
+It compares the two strings letter by letter and keeps track of matching parts using a table. If 
+two letters match, it adds one to the count; if they don’t, it keeps the longer match found so far. 
+In the end, it gives the length of the longest common sequence — called the common child.
