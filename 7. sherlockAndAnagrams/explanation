@@ -1,0 +1,3 @@
+This program finds how many pairs of substrings in a given string are anagrams of each other. It works by checking every possible 
+substring of the string, sorting the letters in each substring, and then comparing them. If two substrings have the same sorted 
+letters, they are anagrams. The program counts all such pairs and prints the total number of anagram pairs found.
