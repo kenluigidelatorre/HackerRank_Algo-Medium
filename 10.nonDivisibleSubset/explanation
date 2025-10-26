@@ -1,0 +1,6 @@
+The program finds the largest subset of numbers where the sum of any two numbers is not divisible by k. It does this 
+by counting how many numbers have each possible remainder when divided by k. For example, if k = 3, possible remainders 
+are 0, 1, and 2. Numbers that leave the same remainder can’t all be chosen freely, because some pairs might sum to a 
+multiple of k. The program keeps at most one number with remainder 0, then for every pair of remainders (i, k - i), 
+it includes whichever group is larger. If k is even, it also allows one number from the remainder exactly equal to k/2. 
+The final count gives the size of the largest valid subset.
