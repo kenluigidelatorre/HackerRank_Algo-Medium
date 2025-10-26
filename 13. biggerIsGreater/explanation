@@ -1,0 +1,5 @@
+This program finds the next lexicographically greater word that can be formed from the given string’s letters. 
+It works by finding the first character (from right to left) that can be swapped to make the word larger, then 
+swapping it with the smallest character to its right that is still greater, and finally reversing the order of 
+the remaining characters after that position. If no such rearrangement is possible because the word is already 
+the largest order (like “cba”), it outputs “no answer”.
