@@ -1,0 +1,3 @@
+The program first finds how many ways a wall of size 4 x n can be filled using small bricks of size 1x4 or 4x1. Then, 
+it counts how many prime numbers are less than or equal to that number of ways. The output is the total count of primes, 
+which represents the final answer for each test case.
