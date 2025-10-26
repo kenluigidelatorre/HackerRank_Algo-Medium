@@ -1,0 +1,3 @@
+The program calculates the maximum profit you can make from buying and selling stocks on given days. It scans the prices from 
+right to left, always keeping track of the highest price seen so far. Whenever a day’s price is lower than that future max price, 
+it means you can buy on that day and sell later at the max price, adding the profit difference.
