@@ -1,0 +1,4 @@
+This program finds the largest possible sums from a list of numbers in two ways. The first is the **maximum subarray sum**, 
+which looks for the biggest total from continuous numbers in the list, and the second is the **maximum subsequence sum**, 
+which adds up the positive numbers or takes the biggest single number if all are negative. It uses a loop to check each 
+number and update the best sums, then outputs both results together.
