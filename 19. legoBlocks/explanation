@@ -1,0 +1,4 @@
+This program calculates how many solid walls can be built using Lego blocks of length 1 to 4. It first figures 
+out all possible combinations for a single row, then raises these to the power of the number of rows to get total 
+wall combinations. Next, it removes “unstable” walls that can break apart vertically, keeping only solid ones. 
+The result is given modulo 1,000,000,007 to keep numbers manageable.
