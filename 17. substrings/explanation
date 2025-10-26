@@ -1,0 +1,4 @@
+This program calculates the sum of all possible numeric substrings that can be formed from a given number string. 
+Instead of generating every substring, it uses a mathematical pattern where each digit’s contribution depends on 
+its position and a growing multiplier. It processes digits from right to left, efficiently summing their weighted 
+values under modulo 10⁹+7 to handle large results.
