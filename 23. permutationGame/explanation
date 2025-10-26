@@ -1,0 +1,4 @@
+This program simulates a two-player game where Alice and Bob take turns removing elements from an array. The goal is to make the array sorted; 
+whoever does that loses. The code uses recursion and memoization to check every possible move. For each turn, it removes one number and checks 
+if the next player will lose. If there’s a move that forces the opponent to lose, that’s a winning position. In the end, the program prints 
+"Alice" if the first player can win, or "Bob" if not.
