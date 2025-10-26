@@ -1,0 +1,5 @@
+This program finds how many different combinations of unique natural numbers can be raised to a given power to exactly equal a target number. 
+The powerSum function starts the process by calling countWays, which uses recursion to explore all possible numbers. For each number, it checks 
+if its power is equal to, less than, or greater than the remaining value needed to reach the target. If it matches, that’s one valid combination. 
+If it’s smaller, the program tries two paths—one where the number is included and one where it’s skipped. This continues until all possibilities 
+are checked, and the total count of valid combinations is returned.
