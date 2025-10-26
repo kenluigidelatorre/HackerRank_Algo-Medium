@@ -1,0 +1,5 @@
+This program calculates how many different ways you can make a total amount n using a set of coin values. 
+It uses a dynamic programming approach where each coin is used to update a table (dp) that tracks the number 
+of combinations to reach every amount up to n. For each coin, it adds the number of ways to make smaller 
+amounts leading up to that total. In the end, dp[n] holds the total number of ways to make change for n using 
+the given coins.
