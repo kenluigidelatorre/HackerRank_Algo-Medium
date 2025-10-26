@@ -1,0 +1,3 @@
+This program finds the maximum total cost of a list where each number can be changed to any value between 1 and its original value. 
+It uses dynamic programming to compare two options for each number — keeping it as 1 or its original value — and calculates which 
+gives the highest sum of absolute differences between neighbors. The final result is the largest total cost possible.
