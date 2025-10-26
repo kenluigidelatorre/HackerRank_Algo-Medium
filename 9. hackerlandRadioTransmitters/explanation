@@ -1,0 +1,4 @@
+This program finds the minimum number of transmitters needed to cover all houses in Hackerland. It works by first sorting the house positions, 
+then starting from the first uncovered house. It moves forward to find the farthest house that can be reached within the transmitter’s range 
+(k) and places the transmitter there. After that, it skips all houses already covered by that transmitter and repeats the process until all 
+houses are covered. This ensures every house is within range while using the fewest transmitters possible.
