@@ -1,0 +1,4 @@
+This program turns a given numeric string into the largest possible palindrome using a limited number of digit changes. It first 
+checks both ends of the string and changes the smaller digit so that they match, ensuring it becomes a palindrome while counting 
+how many changes are used. Then, if there are remaining changes, it upgrades digits to ‘9’ from both ends to make the number as 
+large as possible. If it’s impossible to form a palindrome within the allowed number of changes, it returns “-1.”
