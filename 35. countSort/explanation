@@ -1,0 +1,4 @@
+This program performs a version of counting sort but with strings. Each input has a number and a word. The program groups words 
+by their number (like sorting them into buckets). For the first half of the input, it replaces the word with a dash (-) to hide 
+it. After grouping all words, it prints them in order based on their number, keeping the original sequence for words with the 
+same number.
