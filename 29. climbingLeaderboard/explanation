@@ -1,0 +1,4 @@
+The program determines each player’s rank based on their scores compared to the existing leaderboard. It first 
+removes duplicate scores to keep only unique rankings. Then, for each player’s score, it compares from the lowest 
+rank upward to find where the score fits. After each check, it records the player’s current rank, showing how their 
+position changes after every game.
