@@ -1,0 +1,3 @@
+This program finds the maximum sum of the top-left quadrant in a square matrix after flipping rows and columns any number of times. 
+It checks every cell in the top-left part and chooses the largest value that can appear there after flipping — from four possible 
+symmetric positions. Then, it adds these maximum values to get the total highest possible sum.
