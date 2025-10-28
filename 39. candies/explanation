@@ -1,0 +1,4 @@
+This program distributes candies to children based on their ratings.
+Each child gets at least one candy. If a child’s rating is higher than the one before, they get more candies.
+The code first moves left to right to handle increasing ratings, then right to left to adjust for decreases.
+Finally, it adds up all the candies to get the total number needed.
