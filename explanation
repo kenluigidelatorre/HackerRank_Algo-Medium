@@ -1,0 +1,3 @@
+The code finds the “super digit” of a large number created by repeating string n exactly k times. Instead of creating 
+the full number, it first sums the digits of n, multiplies it by k, and keeps summing the digits until only one digit 
+remains. That final single digit is the super digit.
