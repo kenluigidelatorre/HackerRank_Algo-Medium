@@ -1,0 +1,3 @@
+This code finds the bitwise AND of all numbers from a to b. It keeps removing the lowest set bit of b 
+until a and b are the same. This works because any bit that changes between a and b becomes 0 in the 
+AND operation. The final value of b is the result.
