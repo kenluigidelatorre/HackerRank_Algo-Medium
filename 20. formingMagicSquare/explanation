@@ -1,0 +1,3 @@
+This program changes a 3×3 grid into a magic square, where the sum of every row, column, and diagonal is the same number (15). 
+It compares the given grid to all possible 3×3 magic squares, calculates the cost to change each number, and finds the smallest 
+total cost. That smallest value is the answer.
