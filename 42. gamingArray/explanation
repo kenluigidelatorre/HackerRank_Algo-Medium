@@ -1,0 +1,4 @@
+In this problem, two players — Bob and Andy — take turns removing elements from the array. Each time, they remove numbers from 
+the end until they reach the current largest number. The game ends when all numbers are gone. The player who makes the last move 
+wins. The program counts how many times a new maximum number appears while scanning the array. If the count is odd, Bob wins; if 
+even, Andy wins.
