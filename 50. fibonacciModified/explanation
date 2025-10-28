@@ -1,0 +1,4 @@
+The program calculates a modified Fibonacci sequence where each term is found using the formula **Tn = Tn-2 + (Tn-1)²** instead 
+of simple addition. It starts with the given first two numbers, stores them in an array, and keeps computing the next terms until 
+it reaches the nth one. Since the numbers can get very large, it uses **BigInteger** to handle big values, and the final computed 
+term is printed as the result.
