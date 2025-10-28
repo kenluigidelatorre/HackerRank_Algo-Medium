@@ -1,0 +1,4 @@
+This program changes a sentence into an encrypted form by rearranging its letters. It first removes all the spaces, 
+then puts the letters into a grid based on the square root of the total number of characters. After that, it reads 
+the letters column by column to create the final encrypted message. For example, “have a nice day” becomes “hae and 
+via ecy.”
