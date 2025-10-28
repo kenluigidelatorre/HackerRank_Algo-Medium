@@ -1,0 +1,3 @@
+This program converts a given time in numbers into words, just like how we say it in real life. For example, if the time is 
+5:00, it prints “five o’ clock.” If it’s 5:15, it says “quarter past five,” and if it’s 5:45, it says “quarter to six.” The 
+code uses a list of number words and checks the minutes to decide whether to say “past” or “to” the next hour.
