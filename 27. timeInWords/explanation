@@ -1,0 +1,3 @@
+This program converts digital time into words. It first stores the number words from one to twenty-nine, including "quarter" and "half". 
+Depending on the value of m, it checks for cases like “o’clock”, “quarter past”, “half past”, or “quarter to”. For minutes less than 30, 
+it says “minutes past hour”, and for those greater than 30, it says “minutes to next hour”, accurately expressing the time in natural language.
