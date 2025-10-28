@@ -1,0 +1,5 @@
+The Bomberman Game works by following a repeating time pattern: at the start, the grid shows the original bombs; 
+after 2 seconds, Bomberman fills all empty spaces with bombs; and after 3 seconds, the bombs that were placed 
+earlier explode, clearing themselves and their adjacent cells. This explosion cycle repeats every 4 seconds. 
+The program checks the time `n` and simulates the correct grid state by either returning the initial grid 
+(for n = 1), a full bomb grid (for even n), or one of the explosion patterns (for odd n greater than 1).
