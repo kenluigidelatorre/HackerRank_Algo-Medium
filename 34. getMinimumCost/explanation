@@ -1,0 +1,4 @@
+This program calculates the minimum total cost of buying flowers when each purchase makes future flowers more expensive. 
+It sorts the flower prices from highest to lowest so the most expensive ones are bought first, which helps reduce the total 
+cost. Each friend takes turns buying flowers, and every time all friends have bought one flower each, the price multiplier 
+increases. This way, the program ensures the total amount spent is as small as possible.
