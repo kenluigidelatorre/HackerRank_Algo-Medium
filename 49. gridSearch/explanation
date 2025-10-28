@@ -1,0 +1,3 @@
+This program checks if a smaller grid (pattern P) exists inside a bigger grid (G).
+It moves across all positions in G and compares each section with P line by line.
+If it finds a perfect match for all rows of P, it returns "YES" — otherwise, "NO".
