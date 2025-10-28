@@ -1,0 +1,3 @@
+This program decides who wins a game where players take turns reducing a number. If the number is a power of 2, 
+they divide it by 2; if not, they subtract the biggest power of 2 smaller than the number. They keep doing this 
+until the number becomes 1. If the total turns are odd, Louise wins; if even, Richard wins.
