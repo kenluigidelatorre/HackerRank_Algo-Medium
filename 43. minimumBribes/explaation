@@ -1,0 +1,3 @@
+This program finds how many times people bribed others to move ahead in a queue. Each person can bribe at most two others. 
+The code checks if anyone has moved more than two spots ahead—if so, it prints "Too chaotic". Otherwise, it counts how many 
+times a higher-numbered person appears before a smaller one, which represents a bribe, and prints the total number of bribes.
