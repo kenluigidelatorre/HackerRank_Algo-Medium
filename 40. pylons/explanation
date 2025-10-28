@@ -1,0 +1,4 @@
+This program decides where to place power plants (pylons) so that every city gets electricity using the fewest pylons possible. 
+Each pylon can supply power to itself and nearby cities within range k-1. The program moves from left to right, always placing 
+a pylon at the farthest possible city that can cover the current area. If no city can have a pylon, it returns -1. The final 
+count shows how many pylons are needed.
