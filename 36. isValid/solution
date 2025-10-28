@@ -1,0 +1,72 @@
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+
+class Result
+{
+
+    /*
+     * Complete the 'isValid' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts STRING s as parameter.
+     */
+
+    public static string isValid(string s)
+    {
+        Dictionary<char, int> freq = new Dictionary<char, int>();
+        foreach (char c in s)
+        {
+            if (!freq.ContainsKey(c))
+                freq[c] = 0;
+            freq[c]++;
+        }
+
+        var freqCounts = freq.Values.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
+
+        if (freqCounts.Count == 1)
+            return "YES";
+
+        if (freqCounts.Count > 2)
+            return "NO";
+
+        var keys = freqCounts.Keys.ToList();
+        int f1 = keys[0], f2 = keys[1];
+        int c1 = freqCounts[f1], c2 = freqCounts[f2];
+
+        if ((f1 == 1 && c1 == 1) || (f2 == 1 && c2 == 1))
+            return "YES";
+        if ((Math.Abs(f1 - f2) == 1) && ((f1 > f2 && c1 == 1) || (f2 > f1 && c2 == 1)))
+            return "YES";
+
+        return "NO";
+    }
+
+}
+
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+        string s = Console.ReadLine();
+
+        string result = Result.isValid(s);
+
+        textWriter.WriteLine(result);
+
+        textWriter.Flush();
+        textWriter.Close();
+    }
+}
