@@ -1,0 +1,4 @@
+This program finds the smallest possible loss when selling a house at a lower price than it was bought for. It works by keeping track of 
+each price’s original position, sorting all prices, and comparing only adjacent prices in the sorted list. For each pair, it checks if 
+the higher price appeared earlier in the input (which means it was bought first). Among all valid pairs, it picks the smallest difference 
+as the minimum loss.
