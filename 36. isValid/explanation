@@ -1,0 +1,5 @@
+This program checks if a word is **valid** by seeing if all letters appear the same number of times.
+If they do, it prints **“YES”**.
+If not, it checks if removing just **one letter** can make all the counts equal.
+If that’s possible, it still prints **“YES”**; otherwise, it prints **“NO”**.
+Simply put, it tests whether the string is already balanced or can be fixed by removing one character.
