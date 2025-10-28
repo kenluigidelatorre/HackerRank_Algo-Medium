@@ -1,0 +1,4 @@
+This program looks for all possible plus shapes made of 'G' cells in the grid. For each good cell, it tries to expand arms equally in 
+all directions to form larger pluses. It saves all valid pluses, then compares every pair to check if they overlap. If they don’t, it 
+multiplies their areas and keeps track of the highest product. Finally, it prints that maximum product, representing the two biggest 
+non-overlapping pluses in the grid.
