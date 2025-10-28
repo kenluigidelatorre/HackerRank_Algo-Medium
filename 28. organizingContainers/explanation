@@ -1,1 +1,3 @@
-
+This program checks if we can rearrange balls so that each container holds only one type. It adds up the total balls in 
+each container and the total of each type. Then it sorts and compares them. If both lists match, it means the arrangement 
+is possible. Otherwise, it’s impossible.
